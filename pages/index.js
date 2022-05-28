@@ -2,8 +2,8 @@ import Head from 'next/head'
 import { useState } from "react"
 
 export default function Home() {
-  var countDownDate = new Date("June 1, 2022 7:0:0").getTime();
-  var [moreTime, setmoreTime] = useState("June first")
+  var countDownDate = new Date("June 18, 2022 7:0:0").getTime();
+  var [moreTime, setmoreTime] = useState("June 18")
   var [title, setTile] = useState("Blog-y")
   var props = {
     dp:"Blogy a Website by net-js to blogy anything and everythong by net-js"
