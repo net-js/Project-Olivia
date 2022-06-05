@@ -4,7 +4,7 @@ import { useState } from "react"
 export default function Home() {
   var countDownDate = new Date("June 18, 2022 7:0:0").getTime();
   var [moreTime, setmoreTime] = useState("June 18")
-  var [title, setTile] = useState("Blog-y")
+  var [title, setTile] = useState("Olivia")
   var props = {
     dp:"Project Olivia"
   }
@@ -17,7 +17,7 @@ export default function Home() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     setmoreTime(days + "d " + hours + "h " + minutes + "m " + seconds + "s ")
-    setTile(`${days}:${hours}:${minutes} Blogy`)
+    setTile(`${days}:${hours}:${minutes} Olivia`)
   }, 1000);
 
   return (
