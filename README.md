@@ -18,7 +18,7 @@ It is a batteries included framework.
 ## Why Olivia?
 because it is simple, flexible, and powerful it is also prety lightweight. 
 
-Also you can easily add React to your project.
+Also you can use React in your project.
 
 ## When will it be ready?
 I hope it will come out later this year or early january.
